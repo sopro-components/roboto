@@ -14,12 +14,15 @@ The tiffs were downloaded from [google's material design spec](http://www.google
 Usage
 =====
 Set this repo as a dependency of your project:
+
     $ cd project-folder
     $ bower install https://github.com/sopro-components/roboto.git --save
 
 then include the CSS in your project to load all woff fonts as family `Roboto`:
+
     <link rel="stylesheet" href="bower_components/roboto/2014/roboto-woff.css">
 
-If you are using Polymer, their elements call the font family `RobotoDraft`. 
+If you are using Polymer, their elements call the font family `RobotoDraft`.  
 You can load the fonts as family `RobotoDraft` instead by including:
+
     <link rel="stylesheet" href="bower_components/roboto/2014/robotodraft-woff.css">
